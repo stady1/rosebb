@@ -2,71 +2,64 @@
 <html lang="uk">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css">
-    <title> all the time delivery flowers </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title> all the time delivery flowers </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-    <style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 5px;
-}
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
+  <!--Конвейєр слайд-->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/roses3.jpg" style="width:100%" alt="котик в квітах">
+      <!--<div class="text">Caption Text</div>-->
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/pomash.jpg" style="width:100%" alt="котик в квітах">
+      <!--<div class="text">Caption Two</div>-->
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/roses5.jpg" style="width:100%" alt="котик в квітах">
+      <!--<div class="text">Caption Three</div>-->
+    </div>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
 
-/*.item1 {*/
-/*  grid-row: 1 / 3;*/
-/*}*/
-</style>
-</head>
-<body>
-
-<h1>The grid-row Property</h1>
-
-<p>Use the <em>grid-row</em> property to specify where to place an item.</p>
-<p>Item1 will start on row-line 1 and end on row-line 4:</p>
-
-<div class="grid-container">
-  <div class="item1">
-            <h5 id="contacts">КОНТАКТИ</h5>
-            
-            <p> Наша адреса : м. Львів, вул. Магазин, 22
-            </p>
-            <p> тел. 032 000 000 , 000 000 000 000 000
-            </p></div>
-  <div class="item2"><p> Наш e-mail rose@mail.com  Ми у соціальних мережах
-            </p>
-            <img src="img/merezh.jpg" class="d-block w-100" alt="мережі ">
-            <p> 
-            </p></div>
-  <div class="item3">
-      <img src="img/karta.png" class="d-block w-100" alt="karta ">
-  </div>  
- 
-</div>
+  <!--Опис картинки-->
+  <h2>Мiша з квiтами</h2>
 
 
-    <main>
-        
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <div class="container">
+    <img src="img/misha.jpg" alt="Avatar" class="image" style="width:50%">
+    <div class="middle">
+      <div class="text"> Ціна 500 грн.</div>
+    </div>
+  </div>
 
-<script src="js/index.js"></script>
+  <!--Опис картинки внизу-->
+  <h2>Image Overlay Title</h2>
+  <p>Hover over the image to see the effect.</p>
+
+  <div class="container1">
+    <img src="img/frui1.jpg" alt="Avatar" class="image1">
+    <div class="overlay1">Ціна 300 грн.</div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
-    
